@@ -41,7 +41,7 @@ void dsmua::setInfo(int IDKH, string HOTEN, mathang* M, int SOLUONG) {
 
 void dsmua::xuat() {
 	this->thanhtien = this->soluong * m->getGia();
-	cout << left << "\n\t\t" << setw(10) << m->getMahang() << setw(20) << m->getTenhang()<< m->getNhomMH();
+	cout << left << "\n\t\t" << setw(10) << m->getMahang() << setw(20) << m->getTenhang()<<setw(20)<< m->getNhomMH();
 	cout << left << setw(15) << this->soluong << setw(15) << (size_t)this->m->getGia() << setw(10) << (size_t)this->thanhtien;
 	cout << "\n\t\t" << "________________________________________________________________________________________________________\n";
 }
